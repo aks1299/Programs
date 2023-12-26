@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Basics"
+		},
+		{
+			"path": "..\\Constructors"
+		},
+		{
+			"path": "..\\If-Else"
+		},
+		{
+			"path": "..\\Inheritance"
+		},
+		{
+			"path": "..\\Last Series"
+		},
+		{
+			"path": "..\\Loops"
+		},
+		{
+			"path": "..\\Methods"
+		},
+		{
+			"path": "..\\Strings"
+		}
+	]
+}

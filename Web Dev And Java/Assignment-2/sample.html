@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+div{background-color:red;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+	$("button").click(function()
+	{
+		$("div").fadeToggle(500,function(){
+		alert("Hello");
+		});
+	}); 
+});
+</script>
+</head>
+<body>
+<button>Submit</button>
+<div>For jQuery you do not really need to set up any environment. As is the case with HTML, you can use any text editor you like. 
+You can use the same editor you have used for coding HTML and CSS as well.
+The only thing you need to make sure is that you add jQuery library to the page. There are two ways of doing 
+this: First way is to add it from external sources like CDN or Google CDN or jQuerys own website or your own server. 
+It really does not matter. The second way is to download jQuery library and keep it in the same place as “home.html”. If 
+you change the place, you just need to give the proper path of that location. For example, if some developer likes to keep 
+this file in a folder named “js”, your path will look like “js/jquerylibrary.js”. In this case, jquerylibrary.js is the name of the 
+current version of the library. The name can be anything you like as you are keeping it on your server. However, if you 
+are using a hosted version from CDN then you cannot change the filename. Let us see the following example of using a 
+hosted version of jQuery file.</div>
+</body>
+</html>

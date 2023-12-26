@@ -1,0 +1,2 @@
+def coPrime(n,m):
+    

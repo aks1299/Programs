@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Java Code</title>
+    </head>
+    <body style="background-color:aquamarine">
+        <h1><b><u>Palindrome</u></b></h1>
+        <hr>
+        <form>
+            <fieldset style="background-color:springgreen; font-size: larger;">
+            <legend><b><i>Code</i></b></legend>
+            <pre>
+                import java.util.*;
+                public class Palindrome
+                {
+                    public static void main(String[] args)
+                    {
+                        Scanner in=new Scanner(System.in);
+                        System.out.println("Enter String : ");
+                        String s=in.nextLine();
+                        int l=s.length;
+                        String s1="";
+                        for(int i=l;i>0;i--)
+                        {
+                            s1=s1+s[i];
+                        }
+                        if(s==s1)
+                        {
+                            System.out.println("The String is a Palindrome.")
+                        }
+                        else
+                        {
+                            System.out.println("The String is not a Palindrome.")
+                        }
+                    }
+                }
+		    </pre>
+            </fieldset>
+	    <fieldset style="background-color:springgreen">
+            <legend><b><i>Input</i></b></legend>
+                Enter String : racecar
+            </fieldset>
+	    <fieldset style="background-color:springgreen">
+            <legend><b><i>Output</i></b></legend>
+                <p style="font-family:Times New Roman;">The String is a Palindrome.</p>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>214109334</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <style>
+             div{
+                position:relative;
+                padding-left: 20px;
+                margin-top: 20px;
+                margin-left: 10px;
+                background-color:pink;
+                height:200px;
+                width:200px;
+             }
+        </style>
+        <script>
+            $(document).ready(function()
+            {
+                $("#sde").click(function()
+                {
+                   $("div").slideUp();
+                });
+                $("#ate").click(function()
+                {
+                   $("div").animate({height: "400px"});
+                });
+                $("#fin").click(function()
+                {
+                   $("div").fadeIn();
+                });
+                 $("#hd").click(function()
+                {
+                   $("div").hide();
+                });
+                 $("#so").click(function()
+                {
+                   $("div").show();
+                });
+                $("#mde").mouseenter(function()
+                {
+                   $("div").css("background-color", "yellow");
+                });
+                 $("#dclk").dblclick(function()
+                {
+                   $("div").css("background-color", "cyan");
+                });
+                $("#mlv").mouseleave(function()
+                {
+                   $("div").css("background-color", "black");
+                });
+                $("#atr").click(function()
+                {
+                   var r=$("div").attr("id");
+                   alert("The ID of Division is : "+r);
+                });
+                 $("#tml").click(function()
+                {
+                   var r=$("div").html();
+                   alert("The HTML Inside of Division is : "+r);
+                });  
+            });
+           </script>
+           </head>
+    <body>
+        <button id="sde">Slide Down</button>
+        <button id="ate">Animate</button>
+        <button id="fin">Fade In</button>
+        <button id="hd">Hide</button>
+        <button id="so">Show</button>
+        <button id="mde">Mouse Enter</button>
+        <button id="dclk">DBL Click</button>
+        <button id="mlv">Mouse Leave</button>
+        <button id="atr">Attr</button>
+        <button id="tml">HTML</button>
+        <div id="DIV1">
+           <p></p>
+        </div>
+    </body>
+</html>

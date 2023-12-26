@@ -1,0 +1,1 @@
+# question 7 is output based question please solve yourself  

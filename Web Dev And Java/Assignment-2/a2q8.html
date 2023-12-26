@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>2141019334</title>
+<style>
+body{font-family:Calibri,Helvetica,sans-serif;
+	background-color:pink;}
+.container{padding:50px;
+	background-color:lightblue;}
+textarea{width:100%;
+	padding:15px;
+	margin:5px 0px 22px 0px ;
+	display:inline-block;
+	border:none;
+	background:#f1f1f1;}
+div{padding:10px 0px;}
+hr{margin-bottom:25px;}
+.registerbtn{background-color:#4CAF50;
+	color:white;
+	padding:16px 20px;
+	margin:8px 0px;
+	border:none;
+	width:100%;
+	opacity:0.9;}
+.registerbtn:hover{opacity:1;}
+</style>
+</head>
+<body>
+<form>
+<div class="container">
+<center> <h1> Student Registeration Form</h1> </center>
+<hr>
+<label>Firstname:</label><input type="text" name="firstname" placeholder= "Firstname" size="15" required>
+<label>Middlename: </label><input type="text" name="middlename" placeholder="Middlename" size="15" required>
+<label>Lastname: </label><input type="text" name="lastname" placeholder="Lastname" size="15" required>
+<div>
+    <label>Course :</label>
+    	<input type="radio" value="Male" name="gender"> Course
+    	<input type="radio" value="Male" name="gender"> BCA
+    	<input type="radio" value="Male" name="gender"> BBA
+    	<input type="radio" value="Male" name="gender"> B.Tech
+    	<input type="radio" value="Male" name="gender"> MBA
+    	<input type="radio" value="Male" name="gender"> MCA
+    	<input type="radio" value="Male" name="gender"> M.Tech
+    </div>
+<div>
+<label>Gender :</label>
+	<input type="radio" value="Male" name="gender" checked > Male
+	<input type="radio" value="Female" name="gender"> Female
+	<input type="radio" value="Other" name="gender"> Other
+</div>
+<label>Phone :</label>
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>
+<input type="text" name="phone" placeholder="phone no." size="10"/><br>
+Current Address :
+<textarea cols="80" rows="5" placeholder="Current Address" value="address">
+</textarea>
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter Email" name="email" required>
+<label for="psw"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Doesn't Fulfill criteria." required>
+<label for="psw-repeat"><b>Re-type Password</b></label>
+<input type="password" placeholder="Retype Password" name="psw-repeat" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Doesn't Fulfill criteria." required>
+<button type="submit" class="registerbtn">Register</button>
+</form>
+</body>
+</html>

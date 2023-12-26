@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>2141019334</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $("input").focus(function()
+                {
+                    $(this).css("background-color","red");
+                });
+                $("input").blur(function()
+                { 
+                   $(this).css("background-color","cyan");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <form> 
+            <input id="field1" type="text" value="Field 1">
+            <input id="field2" type="text" value="Field 2">
+        </form>
+    </body>
+</html>

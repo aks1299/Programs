@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>2141019334</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $("#btn1").click(function()
+                {
+                    $("#btn1").css("color","red");
+                    $("#tbody").append('<tr><td>Rishav</td><td>A</td></tr>');
+                });
+                $("#cc").click(function()
+                {
+                    $("tbody tr td").css("color","red");
+                });
+                $("#rev").click(function()
+                {
+                    var i=$("input").val();
+                    $("#"+i).remove();
+                });  
+            });
+        </script>
+    </head>
+    <body>
+        <button id="btn1">ADD</button>
+        <br><br>
+        <table border="5" >
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>halua</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr>
+                    <td id="n1">Aman</td>
+                    <td id="g1">A</td>
+                </tr>
+                <tr>
+                    <td id="n2">Harsh</td>
+                    <td id="g2">A</td>
+                </tr>
+            </tbody>
+            </table>
+            <br>
+            <button id="cc">Change Color</button>
+            <br><br>
+            <label>Enter the ID to be Searched and Removed : </label>
+            <input type="text" >
+            <br><br>
+            <button id="rev">Remove all </button>
+        </table>
+    </body>
+</html>

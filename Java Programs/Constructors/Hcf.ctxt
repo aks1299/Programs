@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Hcf
+comment1.params=n1\ n2
+comment1.target=Hcf(int,\ int)
+comment2.params=
+comment2.target=void\ hcf()
+comment3.params=
+comment3.target=void\ main()
+numComments=4

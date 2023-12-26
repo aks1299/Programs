@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#inp").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#tbl tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<style>
+</style>
+</head>
+<body>
+<p>Search jobs or job categories : </p>  
+<input id="inp" type="text" placeholder="Search">
+<br><br>
+<table border="3">
+  <thead>
+  <tr>
+    <th>Job categories</th>
+    <th>Jobs</th>
+  </tr>
+  </thead>
+  <tbody id="tbl">
+  <tr>
+    <td>Development</td>
+    <td>Software</td>
+  </tr>
+  <tr>
+    <td>Research</td>
+    <td>Hardware</td>
+  </tr>
+  <tr>
+    <td>Research</td>
+    <td>Electronics</td>
+  </tr>
+  <tr>
+    <td>Development</td>
+    <td>Mechanical</td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
