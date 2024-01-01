@@ -1,6 +1,9 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "sstream": "c",
+        "regex": "c",
+        "charconv": "c"
     },
     "java.project.sourcePaths": [
         "Java Programs"
