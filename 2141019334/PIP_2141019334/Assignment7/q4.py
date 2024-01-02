@@ -1,5 +1,5 @@
 #1
-def func():
+def func1():
     l1 = list()
     l2 = list()
     for i in range(0,5):
@@ -8,7 +8,7 @@ def func():
     print(l1)
     print(l2)
 
-func()
+func1()
 #2
 def func():
     l1 = list()

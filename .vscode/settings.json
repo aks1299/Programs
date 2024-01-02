@@ -8,5 +8,7 @@
     "java.project.sourcePaths": [
         "Java Programs"
     ],
-    "java.dependency.syncWithFolderExplorer": false
+    "java.dependency.syncWithFolderExplorer": false,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
 }
