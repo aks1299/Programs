@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=fourx3
-comment1.params=a\ b\ c\ d
-comment1.target=int\ satis(int,\ int,\ int,\ int)
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
-numComments=3

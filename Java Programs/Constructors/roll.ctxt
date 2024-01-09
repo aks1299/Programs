@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=roll
-comment1.params=rol\ naam\ z\ x\ f\ v\ g
-comment1.target=roll(int,\ java.lang.String,\ double,\ double,\ double,\ double,\ double)
-comment2.params=
-comment2.target=void\ peravg()
-comment3.params=
-comment3.target=void\ main()
-numComments=4

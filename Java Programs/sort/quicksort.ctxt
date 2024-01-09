@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=args
-comment0.target=void\ main(java.lang.String[])
-comment1.params=a\ lower\ upper
-comment1.target=void\ quicksort(int[],\ int,\ int)
-comment2.params=a\ lower\ upper
-comment2.target=int\ split(int[],\ int,\ int)
-numComments=3
